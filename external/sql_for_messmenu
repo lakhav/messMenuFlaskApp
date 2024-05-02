@@ -1,0 +1,956 @@
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(1, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(1, 'Breakfast', 'Tea', 'Beverage'),
+(1, 'Breakfast', 'Cold Milk', 'Beverage'),
+(1, 'Breakfast', 'Hot Milk', 'Beverage'),
+(1, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(1, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(1, 'Breakfast', 'Pickle', 'Main Dish'),
+(1, 'Breakfast', 'Butter', 'Main Dish'),
+(1, 'Breakfast', 'Curd', 'Main Dish'),
+(1, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(1, 'Breakfast', 'Omelette', 'Main Dish'),
+(1, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(1, 'Lunch', 'Keema Soya', 'Main Dish'),
+(1, 'Lunch', 'Matar Masala', 'Main Dish'),
+(1, 'Lunch', 'Rajma', 'Main Dish'),
+(1, 'Lunch', 'Onion Rice', 'Main Dish'),
+(1, 'Lunch', 'Chapati', 'Main Dish'),
+(1, 'Lunch', 'Plain Curd', 'Main Dish'),
+(1, 'Lunch', 'Green Salad', 'Main Dish'),
+(1, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(1, 'Dinner', 'Dal Fry', 'Main Dish'),
+(1, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(1, 'Dinner', 'Plain Rice', 'Main Dish'),
+(1, 'Dinner', 'Chapati', 'Main Dish'),
+(1, 'Dinner', 'Ice Cream', 'Main Dish'),
+(1, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(2, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(2, 'Breakfast', 'Tea', 'Beverage'),
+(2, 'Breakfast', 'Cold Milk', 'Beverage'),
+(2, 'Breakfast', 'Hot Milk', 'Beverage'),
+(2, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(2, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(2, 'Breakfast', 'Pickle', 'Main Dish'),
+(2, 'Breakfast', 'Butter', 'Main Dish'),
+(2, 'Breakfast', 'Curd', 'Main Dish'),
+(2, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(2, 'Breakfast', 'Bhurji', 'Main Dish'),
+(2, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(2, 'Lunch', 'Bhaji', 'Main Dish'),
+(2, 'Lunch', 'Chutney', 'Main Dish'),
+(2, 'Lunch', 'Masala Rice', 'Main Dish'),
+(2, 'Lunch', 'Pav', 'Main Dish'),
+(2, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(2, 'Lunch', 'Onion Salad', 'Main Dish'),
+(2, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(2, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(2, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(2, 'Dinner', 'Peas Rice', 'Main Dish'),
+(2, 'Dinner', 'Chapati', 'Main Dish'),
+(2, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(2, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(3, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(3, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(3, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(3, 'Breakfast', 'Chapati', 'Main Dish'),
+(3, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(3, 'Breakfast', 'Frymes', 'Main Dish'),
+(3, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(3, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(3, 'Lunch', 'Chole Masala', 'Main Dish'),
+(3, 'Lunch', 'Plain Rice', 'Main Dish'),
+(3, 'Lunch', 'Chapati', 'Main Dish'),
+(3, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(3, 'Lunch', 'Frymes', 'Main Dish'),
+(3, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(3, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(3, 'Dinner', 'Red Masoor', 'Main Dish'),
+(3, 'Dinner', 'Onion Rice', 'Main Dish'),
+(3, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(3, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(3, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(4, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(4, 'Breakfast', 'Tea', 'Beverage'),
+(4, 'Breakfast', 'Cold Milk', 'Beverage'),
+(4, 'Breakfast', 'Hot Milk', 'Beverage'),
+(4, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(4, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(4, 'Breakfast', 'Pickle', 'Main Dish'),
+(4, 'Breakfast', 'Butter', 'Main Dish'),
+(4, 'Breakfast', 'Curd', 'Main Dish'),
+(4, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(4, 'Breakfast', 'Omelette', 'Main Dish'),
+(4, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(4, 'Lunch', 'Keema Soya', 'Main Dish'),
+(4, 'Lunch', 'Matar Masala', 'Main Dish'),
+(4, 'Lunch', 'Rajma', 'Main Dish'),
+(4, 'Lunch', 'Onion Rice', 'Main Dish'),
+(4, 'Lunch', 'Chapati', 'Main Dish'),
+(4, 'Lunch', 'Plain Curd', 'Main Dish'),
+(4, 'Lunch', 'Green Salad', 'Main Dish'),
+(4, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(4, 'Dinner', 'Dal Fry', 'Main Dish'),
+(4, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(4, 'Dinner', 'Plain Rice', 'Main Dish'),
+(4, 'Dinner', 'Chapati', 'Main Dish'),
+(4, 'Dinner', 'Ice Cream', 'Main Dish'),
+(4, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(5, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(5, 'Breakfast', 'Tea', 'Beverage'),
+(5, 'Breakfast', 'Cold Milk', 'Beverage'),
+(5, 'Breakfast', 'Hot Milk', 'Beverage'),
+(5, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(5, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(5, 'Breakfast', 'Pickle', 'Main Dish'),
+(5, 'Breakfast', 'Butter', 'Main Dish'),
+(5, 'Breakfast', 'Curd', 'Main Dish'),
+(5, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(5, 'Breakfast', 'Bhurji', 'Main Dish'),
+(5, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(5, 'Lunch', 'Bhaji', 'Main Dish'),
+(5, 'Lunch', 'Chutney', 'Main Dish'),
+(5, 'Lunch', 'Masala Rice', 'Main Dish'),
+(5, 'Lunch', 'Pav', 'Main Dish'),
+(5, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(5, 'Lunch', 'Onion Salad', 'Main Dish'),
+(5, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(5, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(5, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(5, 'Dinner', 'Peas Rice', 'Main Dish'),
+(5, 'Dinner', 'Chapati', 'Main Dish'),
+(5, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(5, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(6, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(6, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(6, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(6, 'Breakfast', 'Chapati', 'Main Dish'),
+(6, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(6, 'Breakfast', 'Frymes', 'Main Dish'),
+(6, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(6, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(6, 'Lunch', 'Chole Masala', 'Main Dish'),
+(6, 'Lunch', 'Plain Rice', 'Main Dish'),
+(6, 'Lunch', 'Chapati', 'Main Dish'),
+(6, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(6, 'Lunch', 'Frymes', 'Main Dish'),
+(6, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(6, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(6, 'Dinner', 'Red Masoor', 'Main Dish'),
+(6, 'Dinner', 'Onion Rice', 'Main Dish'),
+(6, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(6, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(6, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(7, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(7, 'Breakfast', 'Tea', 'Beverage'),
+(7, 'Breakfast', 'Cold Milk', 'Beverage'),
+(7, 'Breakfast', 'Hot Milk', 'Beverage'),
+(7, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(7, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(7, 'Breakfast', 'Pickle', 'Main Dish'),
+(7, 'Breakfast', 'Butter', 'Main Dish'),
+(7, 'Breakfast', 'Curd', 'Main Dish'),
+(7, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(7, 'Breakfast', 'Bhurji', 'Main Dish'),
+(7, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(7, 'Lunch', 'Bhaji', 'Main Dish'),
+(7, 'Lunch', 'Chutney', 'Main Dish'),
+(7, 'Lunch', 'Masala Rice', 'Main Dish'),
+(7, 'Lunch', 'Pav', 'Main Dish'),
+(7, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(7, 'Lunch', 'Onion Salad', 'Main Dish'),
+(7, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(7, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(7, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(7, 'Dinner', 'Peas Rice', 'Main Dish'),
+(7, 'Dinner', 'Chapati', 'Main Dish'),
+(7, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(7, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(8, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(8, 'Breakfast', 'Tea', 'Beverage'),
+(8, 'Breakfast', 'Cold Milk', 'Beverage'),
+(8, 'Breakfast', 'Hot Milk', 'Beverage'),
+(8, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(8, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(8, 'Breakfast', 'Pickle', 'Main Dish'),
+(8, 'Breakfast', 'Butter', 'Main Dish'),
+(8, 'Breakfast', 'Curd', 'Main Dish'),
+(8, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(8, 'Breakfast', 'Omelette', 'Main Dish'),
+(8, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(8, 'Lunch', 'Keema Soya', 'Main Dish'),
+(8, 'Lunch', 'Matar Masala', 'Main Dish'),
+(8, 'Lunch', 'Rajma', 'Main Dish'),
+(8, 'Lunch', 'Onion Rice', 'Main Dish'),
+(8, 'Lunch', 'Chapati', 'Main Dish'),
+(8, 'Lunch', 'Plain Curd', 'Main Dish'),
+(8, 'Lunch', 'Green Salad', 'Main Dish'),
+(8, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(8, 'Dinner', 'Dal Fry', 'Main Dish'),
+(8, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(8, 'Dinner', 'Plain Rice', 'Main Dish'),
+(8, 'Dinner', 'Chapati', 'Main Dish'),
+(8, 'Dinner', 'Ice Cream', 'Main Dish'),
+(8, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(9, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(9, 'Breakfast', 'Tea', 'Beverage'),
+(9, 'Breakfast', 'Cold Milk', 'Beverage'),
+(9, 'Breakfast', 'Hot Milk', 'Beverage'),
+(9, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(9, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(9, 'Breakfast', 'Pickle', 'Main Dish'),
+(9, 'Breakfast', 'Butter', 'Main Dish'),
+(9, 'Breakfast', 'Curd', 'Main Dish'),
+(9, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(9, 'Breakfast', 'Bhurji', 'Main Dish'),
+(9, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(9, 'Lunch', 'Bhaji', 'Main Dish'),
+(9, 'Lunch', 'Chutney', 'Main Dish'),
+(9, 'Lunch', 'Masala Rice', 'Main Dish'),
+(9, 'Lunch', 'Pav', 'Main Dish'),
+(9, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(9, 'Lunch', 'Onion Salad', 'Main Dish'),
+(9, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(9, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(9, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(9, 'Dinner', 'Peas Rice', 'Main Dish'),
+(9, 'Dinner', 'Chapati', 'Main Dish'),
+(9, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(9, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(10, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(10, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(10, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(10, 'Breakfast', 'Chapati', 'Main Dish'),
+(10, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(10, 'Breakfast', 'Frymes', 'Main Dish'),
+(10, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(10, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(10, 'Lunch', 'Chole Masala', 'Main Dish'),
+(10, 'Lunch', 'Plain Rice', 'Main Dish'),
+(10, 'Lunch', 'Chapati', 'Main Dish'),
+(10, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(10, 'Lunch', 'Frymes', 'Main Dish'),
+(10, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(10, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(10, 'Dinner', 'Red Masoor', 'Main Dish'),
+(10, 'Dinner', 'Onion Rice', 'Main Dish'),
+(10, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(10, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(10, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(11, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(11, 'Breakfast', 'Tea', 'Beverage'),
+(11, 'Breakfast', 'Cold Milk', 'Beverage'),
+(11, 'Breakfast', 'Hot Milk', 'Beverage'),
+(11, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(11, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(11, 'Breakfast', 'Pickle', 'Main Dish'),
+(11, 'Breakfast', 'Butter', 'Main Dish'),
+(11, 'Breakfast', 'Curd', 'Main Dish'),
+(11, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(11, 'Breakfast', 'Omelette', 'Main Dish'),
+(11, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(11, 'Lunch', 'Keema Soya', 'Main Dish'),
+(11, 'Lunch', 'Matar Masala', 'Main Dish'),
+(11, 'Lunch', 'Rajma', 'Main Dish'),
+(11, 'Lunch', 'Onion Rice', 'Main Dish'),
+(11, 'Lunch', 'Chapati', 'Main Dish'),
+(11, 'Lunch', 'Plain Curd', 'Main Dish'),
+(11, 'Lunch', 'Green Salad', 'Main Dish'),
+(11, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(11, 'Dinner', 'Dal Fry', 'Main Dish'),
+(11, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(11, 'Dinner', 'Plain Rice', 'Main Dish'),
+(11, 'Dinner', 'Chapati', 'Main Dish'),
+(11, 'Dinner', 'Ice Cream', 'Main Dish'),
+(11, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(12, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(12, 'Breakfast', 'Tea', 'Beverage'),
+(12, 'Breakfast', 'Cold Milk', 'Beverage'),
+(12, 'Breakfast', 'Hot Milk', 'Beverage'),
+(12, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(12, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(12, 'Breakfast', 'Pickle', 'Main Dish'),
+(12, 'Breakfast', 'Butter', 'Main Dish'),
+(12, 'Breakfast', 'Curd', 'Main Dish'),
+(12, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(12, 'Breakfast', 'Bhurji', 'Main Dish'),
+(12, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(12, 'Lunch', 'Bhaji', 'Main Dish'),
+(12, 'Lunch', 'Chutney', 'Main Dish'),
+(12, 'Lunch', 'Masala Rice', 'Main Dish'),
+(12, 'Lunch', 'Pav', 'Main Dish'),
+(12, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(12, 'Lunch', 'Onion Salad', 'Main Dish'),
+(12, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(12, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(12, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(12, 'Dinner', 'Peas Rice', 'Main Dish'),
+(12, 'Dinner', 'Chapati', 'Main Dish'),
+(12, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(12, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(13, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(13, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(13, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(13, 'Breakfast', 'Chapati', 'Main Dish'),
+(13, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(13, 'Breakfast', 'Frymes', 'Main Dish'),
+(13, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(13, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(13, 'Lunch', 'Chole Masala', 'Main Dish'),
+(13, 'Lunch', 'Plain Rice', 'Main Dish'),
+(13, 'Lunch', 'Chapati', 'Main Dish'),
+(13, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(13, 'Lunch', 'Frymes', 'Main Dish'),
+(13, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(13, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(13, 'Dinner', 'Red Masoor', 'Main Dish'),
+(13, 'Dinner', 'Onion Rice', 'Main Dish'),
+(13, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(13, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(13, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(14, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(14, 'Breakfast', 'Tea', 'Beverage'),
+(14, 'Breakfast', 'Cold Milk', 'Beverage'),
+(14, 'Breakfast', 'Hot Milk', 'Beverage'),
+(14, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(14, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(14, 'Breakfast', 'Pickle', 'Main Dish'),
+(14, 'Breakfast', 'Butter', 'Main Dish'),
+(14, 'Breakfast', 'Curd', 'Main Dish'),
+(14, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(14, 'Breakfast', 'Bhurji', 'Main Dish'),
+(14, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(14, 'Lunch', 'Bhaji', 'Main Dish'),
+(14, 'Lunch', 'Chutney', 'Main Dish'),
+(14, 'Lunch', 'Masala Rice', 'Main Dish'),
+(14, 'Lunch', 'Pav', 'Main Dish'),
+(14, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(14, 'Lunch', 'Onion Salad', 'Main Dish'),
+(14, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(14, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(14, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(14, 'Dinner', 'Peas Rice', 'Main Dish'),
+(14, 'Dinner', 'Chapati', 'Main Dish'),
+(14, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(14, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(15, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(15, 'Breakfast', 'Tea', 'Beverage'),
+(15, 'Breakfast', 'Cold Milk', 'Beverage'),
+(15, 'Breakfast', 'Hot Milk', 'Beverage'),
+(15, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(15, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(15, 'Breakfast', 'Pickle', 'Main Dish'),
+(15, 'Breakfast', 'Butter', 'Main Dish'),
+(15, 'Breakfast', 'Curd', 'Main Dish'),
+(15, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(15, 'Breakfast', 'Bhurji', 'Main Dish'),
+(15, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(15, 'Lunch', 'Bhaji', 'Main Dish'),
+(15, 'Lunch', 'Chutney', 'Main Dish'),
+(15, 'Lunch', 'Masala Rice', 'Main Dish'),
+(15, 'Lunch', 'Pav', 'Main Dish'),
+(15, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(15, 'Lunch', 'Onion Salad', 'Main Dish'),
+(15, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(15, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(15, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(15, 'Dinner', 'Peas Rice', 'Main Dish'),
+(15, 'Dinner', 'Chapati', 'Main Dish'),
+(15, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(15, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(16, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(16, 'Breakfast', 'Tea', 'Beverage'),
+(16, 'Breakfast', 'Cold Milk', 'Beverage'),
+(16, 'Breakfast', 'Hot Milk', 'Beverage'),
+(16, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(16, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(16, 'Breakfast', 'Pickle', 'Main Dish'),
+(16, 'Breakfast', 'Butter', 'Main Dish'),
+(16, 'Breakfast', 'Curd', 'Main Dish'),
+(16, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(16, 'Breakfast', 'Omelette', 'Main Dish'),
+(16, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(16, 'Lunch', 'Keema Soya', 'Main Dish'),
+(16, 'Lunch', 'Matar Masala', 'Main Dish'),
+(16, 'Lunch', 'Rajma', 'Main Dish'),
+(16, 'Lunch', 'Onion Rice', 'Main Dish'),
+(16, 'Lunch', 'Chapati', 'Main Dish'),
+(16, 'Lunch', 'Plain Curd', 'Main Dish'),
+(16, 'Lunch', 'Green Salad', 'Main Dish'),
+(16, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(16, 'Dinner', 'Dal Fry', 'Main Dish'),
+(16, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(16, 'Dinner', 'Plain Rice', 'Main Dish'),
+(16, 'Dinner', 'Chapati', 'Main Dish'),
+(16, 'Dinner', 'Ice Cream', 'Main Dish'),
+(16, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(17, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(17, 'Breakfast', 'Tea', 'Beverage'),
+(17, 'Breakfast', 'Cold Milk', 'Beverage'),
+(17, 'Breakfast', 'Hot Milk', 'Beverage'),
+(17, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(17, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(17, 'Breakfast', 'Pickle', 'Main Dish'),
+(17, 'Breakfast', 'Butter', 'Main Dish'),
+(17, 'Breakfast', 'Curd', 'Main Dish'),
+(17, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(17, 'Breakfast', 'Bhurji', 'Main Dish'),
+(17, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(17, 'Lunch', 'Bhaji', 'Main Dish'),
+(17, 'Lunch', 'Chutney', 'Main Dish'),
+(17, 'Lunch', 'Masala Rice', 'Main Dish'),
+(17, 'Lunch', 'Pav', 'Main Dish'),
+(17, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(17, 'Lunch', 'Onion Salad', 'Main Dish'),
+(17, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(17, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(17, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(17, 'Dinner', 'Peas Rice', 'Main Dish'),
+(17, 'Dinner', 'Chapati', 'Main Dish'),
+(17, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(17, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(18, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(18, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(18, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(18, 'Breakfast', 'Chapati', 'Main Dish'),
+(18, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(18, 'Breakfast', 'Frymes', 'Main Dish'),
+(18, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(18, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(18, 'Lunch', 'Chole Masala', 'Main Dish'),
+(18, 'Lunch', 'Plain Rice', 'Main Dish'),
+(18, 'Lunch', 'Chapati', 'Main Dish'),
+(18, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(18, 'Lunch', 'Frymes', 'Main Dish'),
+(18, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(18, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(18, 'Dinner', 'Red Masoor', 'Main Dish'),
+(18, 'Dinner', 'Onion Rice', 'Main Dish'),
+(18, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(18, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(18, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(19, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(19, 'Breakfast', 'Tea', 'Beverage'),
+(19, 'Breakfast', 'Cold Milk', 'Beverage'),
+(19, 'Breakfast', 'Hot Milk', 'Beverage'),
+(19, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(19, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(19, 'Breakfast', 'Pickle', 'Main Dish'),
+(19, 'Breakfast', 'Butter', 'Main Dish'),
+(19, 'Breakfast', 'Curd', 'Main Dish'),
+(19, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(19, 'Breakfast', 'Omelette', 'Main Dish'),
+(19, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(19, 'Lunch', 'Keema Soya', 'Main Dish'),
+(19, 'Lunch', 'Matar Masala', 'Main Dish'),
+(19, 'Lunch', 'Rajma', 'Main Dish'),
+(19, 'Lunch', 'Onion Rice', 'Main Dish'),
+(19, 'Lunch', 'Chapati', 'Main Dish'),
+(19, 'Lunch', 'Plain Curd', 'Main Dish'),
+(19, 'Lunch', 'Green Salad', 'Main Dish'),
+(19, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(19, 'Dinner', 'Dal Fry', 'Main Dish'),
+(19, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(19, 'Dinner', 'Plain Rice', 'Main Dish'),
+(19, 'Dinner', 'Chapati', 'Main Dish'),
+(19, 'Dinner', 'Ice Cream', 'Main Dish'),
+(19, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(20, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(20, 'Breakfast', 'Tea', 'Beverage'),
+(20, 'Breakfast', 'Cold Milk', 'Beverage'),
+(20, 'Breakfast', 'Hot Milk', 'Beverage'),
+(20, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(20, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(20, 'Breakfast', 'Pickle', 'Main Dish'),
+(20, 'Breakfast', 'Butter', 'Main Dish'),
+(20, 'Breakfast', 'Curd', 'Main Dish'),
+(20, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(20, 'Breakfast', 'Bhurji', 'Main Dish'),
+(20, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(20, 'Lunch', 'Bhaji', 'Main Dish'),
+(20, 'Lunch', 'Chutney', 'Main Dish'),
+(20, 'Lunch', 'Masala Rice', 'Main Dish'),
+(20, 'Lunch', 'Pav', 'Main Dish'),
+(20, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(20, 'Lunch', 'Onion Salad', 'Main Dish'),
+(20, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(20, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(20, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(20, 'Dinner', 'Peas Rice', 'Main Dish'),
+(20, 'Dinner', 'Chapati', 'Main Dish'),
+(20, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(20, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(21, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(21, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(21, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(21, 'Breakfast', 'Chapati', 'Main Dish'),
+(21, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(21, 'Breakfast', 'Frymes', 'Main Dish'),
+(21, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(21, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(21, 'Lunch', 'Chole Masala', 'Main Dish'),
+(21, 'Lunch', 'Plain Rice', 'Main Dish'),
+(21, 'Lunch', 'Chapati', 'Main Dish'),
+(21, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(21, 'Lunch', 'Frymes', 'Main Dish'),
+(21, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(21, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(21, 'Dinner', 'Red Masoor', 'Main Dish'),
+(21, 'Dinner', 'Onion Rice', 'Main Dish'),
+(21, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(21, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(21, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(22, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(22, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(22, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(22, 'Breakfast', 'Chapati', 'Main Dish'),
+(22, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(22, 'Breakfast', 'Frymes', 'Main Dish'),
+(22, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(22, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(22, 'Lunch', 'Chole Masala', 'Main Dish'),
+(22, 'Lunch', 'Plain Rice', 'Main Dish'),
+(22, 'Lunch', 'Chapati', 'Main Dish'),
+(22, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(22, 'Lunch', 'Frymes', 'Main Dish'),
+(22, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(22, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(22, 'Dinner', 'Red Masoor', 'Main Dish'),
+(22, 'Dinner', 'Onion Rice', 'Main Dish'),
+(22, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(22, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(22, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(23, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(23, 'Breakfast', 'Tea', 'Beverage'),
+(23, 'Breakfast', 'Cold Milk', 'Beverage'),
+(23, 'Breakfast', 'Hot Milk', 'Beverage'),
+(23, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(23, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(23, 'Breakfast', 'Pickle', 'Main Dish'),
+(23, 'Breakfast', 'Butter', 'Main Dish'),
+(23, 'Breakfast', 'Curd', 'Main Dish'),
+(23, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(23, 'Breakfast', 'Bhurji', 'Main Dish'),
+(23, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(23, 'Lunch', 'Bhaji', 'Main Dish'),
+(23, 'Lunch', 'Chutney', 'Main Dish'),
+(23, 'Lunch', 'Masala Rice', 'Main Dish'),
+(23, 'Lunch', 'Pav', 'Main Dish'),
+(23, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(23, 'Lunch', 'Onion Salad', 'Main Dish'),
+(23, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(23, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(23, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(23, 'Dinner', 'Peas Rice', 'Main Dish'),
+(23, 'Dinner', 'Chapati', 'Main Dish'),
+(23, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(23, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(24, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(24, 'Breakfast', 'Tea', 'Beverage'),
+(24, 'Breakfast', 'Cold Milk', 'Beverage'),
+(24, 'Breakfast', 'Hot Milk', 'Beverage'),
+(24, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(24, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(24, 'Breakfast', 'Pickle', 'Main Dish'),
+(24, 'Breakfast', 'Butter', 'Main Dish'),
+(24, 'Breakfast', 'Curd', 'Main Dish'),
+(24, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(24, 'Breakfast', 'Omelette', 'Main Dish'),
+(24, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(24, 'Lunch', 'Keema Soya', 'Main Dish'),
+(24, 'Lunch', 'Matar Masala', 'Main Dish'),
+(24, 'Lunch', 'Rajma', 'Main Dish'),
+(24, 'Lunch', 'Onion Rice', 'Main Dish'),
+(24, 'Lunch', 'Chapati', 'Main Dish'),
+(24, 'Lunch', 'Plain Curd', 'Main Dish'),
+(24, 'Lunch', 'Green Salad', 'Main Dish'),
+(24, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(24, 'Dinner', 'Dal Fry', 'Main Dish'),
+(24, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(24, 'Dinner', 'Plain Rice', 'Main Dish'),
+(24, 'Dinner', 'Chapati', 'Main Dish'),
+(24, 'Dinner', 'Ice Cream', 'Main Dish'),
+(24, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(25, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(25, 'Breakfast', 'Tea', 'Beverage'),
+(25, 'Breakfast', 'Cold Milk', 'Beverage'),
+(25, 'Breakfast', 'Hot Milk', 'Beverage'),
+(25, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(25, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(25, 'Breakfast', 'Pickle', 'Main Dish'),
+(25, 'Breakfast', 'Butter', 'Main Dish'),
+(25, 'Breakfast', 'Curd', 'Main Dish'),
+(25, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(25, 'Breakfast', 'Bhurji', 'Main Dish'),
+(25, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(25, 'Lunch', 'Bhaji', 'Main Dish'),
+(25, 'Lunch', 'Chutney', 'Main Dish'),
+(25, 'Lunch', 'Masala Rice', 'Main Dish'),
+(25, 'Lunch', 'Pav', 'Main Dish'),
+(25, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(25, 'Lunch', 'Onion Salad', 'Main Dish'),
+(25, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(25, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(25, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(25, 'Dinner', 'Peas Rice', 'Main Dish'),
+(25, 'Dinner', 'Chapati', 'Main Dish'),
+(25, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(25, 'Dinner', 'Green Salad', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(26, 'Breakfast', 'Aloo Capsicum', 'Main Dish'),
+(26, 'Breakfast', 'Chole Masala', 'Main Dish'),
+(26, 'Breakfast', 'Plain Rice', 'Main Dish'),
+(26, 'Breakfast', 'Chapati', 'Main Dish'),
+(26, 'Breakfast', 'Onion Tomato Raita', 'Main Dish'),
+(26, 'Breakfast', 'Frymes', 'Main Dish'),
+(26, 'Breakfast', 'Lemon Water', 'Beverage');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(26, 'Lunch', 'Aloo Capsicum', 'Main Dish'),
+(26, 'Lunch', 'Chole Masala', 'Main Dish'),
+(26, 'Lunch', 'Plain Rice', 'Main Dish'),
+(26, 'Lunch', 'Chapati', 'Main Dish'),
+(26, 'Lunch', 'Onion Tomato Raita', 'Main Dish'),
+(26, 'Lunch', 'Frymes', 'Main Dish'),
+(26, 'Lunch', 'Lemon Water', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(26, 'Dinner', 'Amritsari Paneer', 'Main Dish'),
+(26, 'Dinner', 'Red Masoor', 'Main Dish'),
+(26, 'Dinner', 'Onion Rice', 'Main Dish'),
+(26, 'Dinner', 'Tandoori Roti/Naan', 'Main Dish'),
+(26, 'Dinner', 'Fruit Custard', 'Main Dish'),
+(26, 'Dinner', 'Onion Sirka', 'Main Dish');
+
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(27, 'Breakfast', 'Cornflakes', 'Main Dish'),
+(27, 'Breakfast', 'Tea', 'Beverage'),
+(27, 'Breakfast', 'Cold Milk', 'Beverage'),
+(27, 'Breakfast', 'Hot Milk', 'Beverage'),
+(27, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(27, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(27, 'Breakfast', 'Pickle', 'Main Dish'),
+(27, 'Breakfast', 'Butter', 'Main Dish'),
+(27, 'Breakfast', 'Curd', 'Main Dish'),
+(27, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(27, 'Breakfast', 'Omelette', 'Main Dish'),
+(27, 'Breakfast', 'Paneer Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(27, 'Lunch', 'Keema Soya', 'Main Dish'),
+(27, 'Lunch', 'Matar Masala', 'Main Dish'),
+(27, 'Lunch', 'Rajma', 'Main Dish'),
+(27, 'Lunch', 'Onion Rice', 'Main Dish'),
+(27, 'Lunch', 'Chapati', 'Main Dish'),
+(27, 'Lunch', 'Plain Curd', 'Main Dish'),
+(27, 'Lunch', 'Green Salad', 'Main Dish'),
+(27, 'Lunch', 'Iced Tea', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(27, 'Dinner', 'Dal Fry', 'Main Dish'),
+(27, 'Dinner', 'Mixed Sauce Pasta', 'Main Dish'),
+(27, 'Dinner', 'Plain Rice', 'Main Dish'),
+(27, 'Dinner', 'Chapati', 'Main Dish'),
+(27, 'Dinner', 'Ice Cream', 'Main Dish'),
+(27, 'Dinner', 'Green Salad', 'Main Dish');
+
+-- For Breakfast
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(28, 'Breakfast', 'Bread Pakora/Aloo Bonda', 'Main Dish'),
+(28, 'Breakfast', 'Tea', 'Beverage'),
+(28, 'Breakfast', 'Cold Milk', 'Beverage'),
+(28, 'Breakfast', 'Hot Milk', 'Beverage'),
+(28, 'Breakfast', 'Brown Bread', 'Main Dish'),
+(28, 'Breakfast', 'Mixed Jam', 'Main Dish'),
+(28, 'Breakfast', 'Pickle', 'Main Dish'),
+(28, 'Breakfast', 'Butter', 'Main Dish'),
+(28, 'Breakfast', 'Curd', 'Main Dish'),
+(28, 'Breakfast', 'Boiled Egg', 'Main Dish'),
+(28, 'Breakfast', 'Bhurji', 'Main Dish'),
+(28, 'Breakfast', 'Aloo Pyaaz Parantha', 'Main Dish');
+
+-- For Lunch
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(28, 'Lunch', 'Bhaji', 'Main Dish'),
+(28, 'Lunch', 'Chutney', 'Main Dish'),
+(28, 'Lunch', 'Masala Rice', 'Main Dish'),
+(28, 'Lunch', 'Pav', 'Main Dish'),
+(28, 'Lunch', 'Boondi Raita', 'Main Dish'),
+(28, 'Lunch', 'Onion Salad', 'Main Dish'),
+(28, 'Lunch', 'Tang', 'Beverage');
+
+-- For Dinner
+INSERT INTO menu_item (menu_id, meal, name, category) VALUES 
+(28, 'Dinner', 'Dal Makhni', 'Main Dish'),
+(28, 'Dinner', 'Mixed Vegetables', 'Main Dish'),
+(28, 'Dinner', 'Peas Rice', 'Main Dish'),
+(28, 'Dinner', 'Chapati', 'Main Dish'),
+(28, 'Dinner', 'Gulab Jamun', 'Main Dish'),
+(28, 'Dinner', 'Green Salad', 'Main Dish');
+
+

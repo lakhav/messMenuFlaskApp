@@ -1,0 +1,60 @@
+-- Populate the Day table
+INSERT INTO Day (name) VALUES 
+('Monday'),
+('Tuesday'),
+('Wednesday'),
+('Thursday'),
+('Friday'),
+('Saturday'),
+('Sunday');
+
+-- Populate the Hostel table
+INSERT INTO Hostel (name) VALUES 
+('Hostel A'),
+('Hostel B'),
+('Hostel C'),
+('Hostel D');
+
+
+-- Populate the Menu table for Hostel A
+
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(1, 1),  -- Hostel A, Monday
+(1, 2),  -- Hostel A, Tuesday
+(1, 3),  -- Hostel A, Wednesday
+(1, 4),  -- Hostel A, Thursday
+(1, 5),  -- Hostel A, Friday
+(1, 6),  -- Hostel A, Saturday
+(1, 7);  -- Hostel A, Sunday
+
+-- Populate the Menu table for Hostel B, C, and D similarly
+-- Populate the Menu table for Hostel B
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(2, 1),  -- Hostel B, Monday
+(2, 2),  -- Hostel B, Tuesday
+(2, 3),  -- Hostel B, Wednesday
+(2, 4),  -- Hostel B, Thursday
+(2, 5),  -- Hostel B, Friday
+(2, 6),  -- Hostel B, Saturday
+(2, 7);  -- Hostel B, Sunday
+
+-- Populate the Menu table for Hostel C
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(3, 1),  -- Hostel C, Monday
+(3, 2),  -- Hostel C, Tuesday
+(3, 3),  -- Hostel C, Wednesday
+(3, 4),  -- Hostel C, Thursday
+(3, 5),  -- Hostel C, Friday
+(3, 6),  -- Hostel C, Saturday
+(3, 7);  -- Hostel C, Sunday
+
+-- Populate the Menu table for Hostel D
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(4, 1),  -- Hostel D, Monday
+(4, 2),  -- Hostel D, Tuesday
+(4, 3),  -- Hostel D, Wednesday
+(4, 4),  -- Hostel D, Thursday
+(4, 5),  -- Hostel D, Friday
+(4, 6),  -- Hostel D, Saturday
+(4, 7);  -- Hostel D, Sunday
+

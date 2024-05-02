@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(255,99,71,0.5),rgba(255,99,71,0.5)),url(../img/Thapar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width:90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: margin-top 0.5s;
+    overflow: hidden;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #ff0000;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+    background: #ff0000;
+    position: absolute;
+    bottom: -12px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 10px 0;
+    margin-left: 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    position: relative;
+    bottom : 20px;
+}
+
+
+input{
+    width: 100%;
+    background:transparent;
+    border: 0;
+    outline:0;
+    padding: 18px 15px;
+}
+.input-field i{
+    margin-left: 15px;
+    color:#999;
+    padding-right: 10px ;
+}
+form p{
+    text-align: left;
+    font-size: 13px; 
+}
+form p a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.btn-field{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 85px; 
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #ff0000;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    
+}
+.btn-field button:hover{
+    background-color: #eaeaea;
+    color: black;
+}
+.btn-field button.disable{
+    background: #999;
+    color: #5a5555;
+}
+.heading{
+    color: white;
+    text-align: left;
+    overflow: auto;
+}
+.heading img{
+    float: left;
+    margin-right: 10px;
+    width: 8vw;
+    height:11vh;
+    border-radius: 10px;
+}
+
+.input-group{
+    height: 60px;
+}
+
