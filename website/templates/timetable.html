@@ -1,191 +1,57 @@
-{% extends "base.html" %} {% block head %}
-<title>Time Table</title>
-<style>
-          body {
-              font-family: 'Times New Roman', Times, serif, sans-serif;
-              margin: 0;
-              padding: 0;
-  			background-image: url("../static/img/timetable_background.jpg");
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
 
-          }
+{% extends "base.html" %}
 
-          header {
-              color: rgb(82, 0, 0);
-              padding: 6em;
-          }
+{% block head %}
+  <title>Timetable</title>
+{% endblock %}
 
-          header h1 {
-              margin: 0;
-          }
-
-          nav ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-          }
-
-          nav li {
-              display: inline;
-              margin-right: 1em;
-          }
-
-          nav a {
-              text-decoration: none;
-          }
-
-          #time-table {
-  			color: rgb(65, 96, 173), 0);
-              border-color: #fff3f3;
-              padding: 6%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              font-weight: 800;
-          }
-
-          .time-block {
-
-              margin-bottom: 2em;
-              text-align: center;
-              border: 3px solid #f9f7f7;
-              padding: 3em;
-              width: 50%;
-              background-color:#f9f7f7
-          }
-
-          .time-block h3 {
-              margin-top: 0;
-              font-weight: 800;
-              font-size: 1.2em;
-          }
+{% block content %}
+<h1>Hello, {{user.first_name}}!</h1>
+  <h2>Timetable</h2>
+  
 
 
-          .time-block ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-          }
-
-          .time-block li {
-              font-weight: 800;
-              margin-bottom: 0.5em;
-  			color: rgb(237, 141, 141) 38)
-          }
-
-          .time-block li: first-child{
-              font-weight: bold;
-
-          }
-
-          .text-box {
-            width: 300px;
-            padding: 1em;
-            margin: 1em;
-            border-radius: 5px;
-
-          background-color: rgba(246, 244, 242, 0.5);
-          border: 1px solid #ddd;
-  }
-</style>
-
-{% endblock head %} {% block content %}
-
-<header>
-  <h1>
-     TIME-TABLE
-  </h1>
-</header>
-<section id="time-table">
-  <div class="time-block">
-    <h3>Monday</h3>
-    <ul>
-      <li>8:00 AM - 8:50 AM</li>
-      <li>UCS415</li>
-      <li>8:50 AM - 9:40 AM</li>
-      <li>UCS411</li>
-      <li>9:40 AM - 11:20 AM</li>
-      <li>UMA035 (LAB)</li>
-      <li>1:00 PM - 1:50 PM</li>
-      <li>UMA035</li>
-      <li>1:50 PM - 2:40 PM</li>
-      <li>UCS414</li>
-      <li>2:40 PM - 3:30 PM</li>
-      <li>UCS310</li>
-    </ul>
+  <div class="form-group">
+    <form method="POST" action="/timetable"> <!-- Add form element with method="POST" and action="/timetable" -->
+      <div class="form-group">
+        <label for="day">Select Day:</label>
+        <select class="form-control" id="day" name="day">
+          <option value="Monday" {% if selected_day == "Monday" %} selected {% endif %}>Monday</option>
+          <option value="Tuesday" {% if selected_day == "Tuesday" %} selected {% endif %}>Tuesday</option>
+          <option value="Wednesday" {% if selected_day == "Wednesday" %} selected {% endif %}>Wednesday</option>
+          <option value="Thursday" {% if selected_day == "Thursday" %} selected {% endif %}>Thursday</option>
+          <option value="Friday" {% if selected_day == "Friday" %} selected {% endif %}>Friday</option>
+          <!-- Add more options for additional days if needed -->
+        </select>
+        <button type="submit" class="btn btn-primary">Submit</button> <!-- Add submit button -->
+      </div>
+    </form>
   </div>
-  <div class="time-block">
-    <h3>Tuesday</h3>
-    <ul>
-      <li>8:00 AM - 8:50 AM</li>
-      <li>UCS503</li>
-      <li>8:50 AM - 9:40 AM</li>
-      <li>UCS415</li>
-      <li>9:40 AM - 11:20 AM</li>
-      <li>UCS310 (LAB)</li>
-      <li>1:50 PM - 3:30 PM</li>
-      <li>UCS414 (LAB)</li>
-    </ul>
+  
+  <!-- Timetable Table -->
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>Time</th>
+          <th>Subject</th>
+          <th>Location</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in timetable_entries %}
+          {% if entry.day.name == selected_day %} <!-- Filter timetable entries based on selected day -->
+            <tr {% if entry.category == "Lab" %} class="table-danger" {% endif %}> <!-- Highlight labs -->
+              <td>{{ entry.time }}</td>
+              <td>{{ entry.subject }}</td>
+              <td>{{ entry.location }}</td>
+              <td>{{ entry.category }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
-  <div class="time-block">
-    <h3>Wednesday</h3>
-    <ul>
-      <li>9:40 AM - 11:20 AM</li>
-      <li>UCS415 (LAB)</li>
-      <li>1:00 PM - 1:50 PM</li>
-      <li>UCS035</li>
-      <li>1:50 PM - 2:40 PM</li>
-      <li>UCS310</li>
-      <li>2:40 PM - 3:30 PM</li>
-      <li>UCS503</li>
-      <li>3:30 PM - 5:10 PM</li>
-      <li>UCS503 (LAB)</li>
-    </ul>
-  </div>
-  <div class="time-block">
-    <h3>Thursday</h3>
-    <ul>
-      <li>8:00 AM - 8:50 AM</li>
-      <li>UCS411</li>
-      <li>8:50 AM - 9:40 AM</li>
-      <li>UCS503</li>
-      <li>1:00 PM - 1:50 PM</li>
-      <li>UCS310</li>
-      <li>1:50 PM - 3:30 PM</li>
-      <li>UCS411 (LAB)</li>
-    </ul>
-  </div>
-  <div class="time-block">
-    <h3>Friday</h3>
-    <ul>
-      <li>9:40 AM - 10:30 AM</li>
-      <li>UMA035</li>
-      <li>10:30 AM - 11:20 AM</li>
-      <li>UCS414</li>
-      <li>11:20 AM - 12:10 PM</li>
-      <li>UCS411</li>
-      <li>12:10 PM - 1:10 PM</li>
-      <li>UCS415</li>
-    </ul>
-  </div>
-  <script>
-    const selectedSubgroup = localStorage.getItem("selectedSubgroup");
-
-    document.getElementById("selectedValuedisplay").innerText =
-      selectedSubgroup;
-
-    localStorage.removeItem("selectedHostel");
-
-    var selectedValue = document.getElementById(
-      "selectedValuedisplay"
-    ).innerHTML;
-    var formattedValue = selectedValue
-      .replace(/([a-z])([A-Z])/g, "$1 $2")
-      .toUpperCase();
-    document.getElementById("selectedValuedisplay").innerHTML = formattedValue;
-  </script>
-</section>
-
-{% endblock content %}
+  
+{% endblock %}

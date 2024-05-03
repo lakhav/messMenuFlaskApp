@@ -6,17 +6,24 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from flask_migrate import Migrate
 
+
 db = SQLAlchemy()
 admin = Admin()
 migrate = Migrate()
 
+
 DB_NAME = "database.db"
 
-from .models import User, MenuItem ,Menu
+from . models import User,Menu, MenuItem, Day, Hostel,Timetable,Department,Subgroup
 
 admin.add_view(ModelView(User, db.session))
+admin.add_view(ModelView(Hostel, db.session))
+admin.add_view(ModelView(Timetable, db.session))
+admin.add_view(ModelView(Department, db.session))
+admin.add_view(ModelView(Subgroup, db.session))
 admin.add_view(ModelView(Menu, db.session))
 admin.add_view(ModelView(MenuItem, db.session))
+
 
 
 def create_app():
@@ -35,8 +42,9 @@ def create_app():
 
     migrate.init_app(app, db)
 
+    
 
-    from .models import User, Post
+    from .models import User
     
     create_database(app)
 

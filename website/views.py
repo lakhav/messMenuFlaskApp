@@ -1,9 +1,9 @@
-from flask import Blueprint, render_template, request, flash, redirect, url_for
+from flask import Blueprint, render_template, request, flash, redirect, url_for,jsonify
 from flask_login import login_required, current_user
 
-from . models import Post
+
 from . import db
-from . models import Menu, MenuItem, Day, Hostel
+from . models import User,Menu, MenuItem, Day, Hostel,Timetable
 
 
 views = Blueprint('views', __name__)
@@ -12,32 +12,9 @@ views = Blueprint('views', __name__)
 @views.route('/')
 @login_required
 def home():
-    posts = Post.query.all()
-    return render_template("home.html", user=current_user, posts=posts)
+    return render_template("home.html", user=current_user)
 
 
-@views.route("/timetable")
-@login_required
-def view_timetable():
-    return render_template('timetable.html', user=current_user)
-
-
-@views.route("/create-post", methods=['GET', 'POST'])
-@login_required
-def create_post():
-    if request.method == "POST":
-        text = request.form.get('text')
-
-        if not text:
-            flash('Post cannot be empty', category='error')
-        else:
-            post = Post(text=text, author=current_user.id)
-            db.session.add(post)
-            db.session.commit()
-            flash('Post created!', category='success')
-            return redirect(url_for('views.home'))
-
-    return render_template('create_post.html', user=current_user)
 
 
 @views.route('/selection', methods=['GET', 'POST'])
@@ -69,19 +46,68 @@ def display_mess_menu():
     print("Day name:", day_name)
 
     if not hostel or not day:
-        return render_template('error.html', message='Invalid hostel or day', user=current_user)
+        flash('Invalid hostel or day', category='error')
 
     menu = Menu.query.filter_by(hostel_id=hostel.id, day_id=day.id).first()
 
     if not menu:
-        return render_template('error.html', message='Menu not found for selected hostel and day', user=current_user)
+        flash('Menu not found for selected hostel and day', category='error')
 
     menu_items = MenuItem.query.filter_by(menu_id=menu.id, meal=meal).all()
 
     if not menu_items:
-        return render_template('error.html', message='Menu items not found for selected meal', user=current_user)
+        flash('Menu items not found for selected meal', category='error')
 
+        
     return render_template('display_mess_menu.html', hostel=hostel_name, day=day_name, meal=meal, menu_items=menu_items, user=current_user)
+
+
+
+
+
+
+
+
+# @views.route('/displaymessmenu', methods=['GET', 'POST'])
+# @login_required
+# def display_mess_menu():
+#     hostel_name = request.form.get('hostel')
+#     day_name = request.form.get('day')
+#     meal = request.form.get('meal')
+
+#     hostel = Hostel.query.filter_by(name=hostel_name).first()
+#     day = Day.query.filter_by(name=day_name).first()
+
+#     print("Hostel name:", hostel_name)
+#     print("Day name:", day_name)
+
+#     if not hostel or not day:
+#         return render_template('error.html', message='Invalid hostel or day', user=current_user)
+
+#     menu = Menu.query.filter_by(hostel_id=hostel.id, day_id=day.id).first()
+
+#     if not menu:
+#         return render_template('error.html', message='Menu not found for selected hostel and day', user=current_user)
+
+#     menu_items = MenuItem.query.filter_by(menu_id=menu.id, meal=meal).all()
+
+#     if not menu_items:
+#         return render_template('error.html', message='Menu items not found for selected meal', user=current_user)
+
+#     return render_template('display_mess_menu.html', hostel=hostel_name, day=day_name, meal=meal, menu_items=menu_items, user=current_user)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @views.route('/add_menu_item', methods=['GET', 'POST'])
@@ -158,3 +184,32 @@ def delete_menu_item():
     menu_items = MenuItem.query.filter_by(menu_id=menu.id, meal=meal).all()
 
     return render_template('display_mess_menu.html', hostel=hostel_name, day=day_name, meal=meal, menu_items=menu_items, user=current_user)
+
+
+@views.route('/timetable', methods=['GET', 'POST'])
+def view_timetable():
+    # Assuming the user is authenticated and their information is available in the session
+    # Retrieve the user's class, subgroup, and department information
+    user = current_user  # Assuming you're using Flask-Login for authentication
+    user_year = user.year.id
+    user_subgroup = user.subgroup.id
+    user_department = user.department.id  # Assuming department is a relationship attribute
+    
+    # Query the timetable based on the user's class, subgroup, and department
+    timetable_entries = Timetable.query.filter_by(year_id=user_year, subgroup_id=user_subgroup, department_id=user_department).all()
+    
+    selected_day = request.form.get('day') if request.method == 'POST' else 'Monday'  # Default to Monday if no day selected
+
+    if not timetable_entries:
+            flash("Timetable for the selected criteria is not yet available in the database.", 'info')
+            return redirect(url_for('views.home'))
+
+    # Render a template with the timetable data and selected day
+    return render_template('timetable.html', timetable_entries=timetable_entries, selected_day=selected_day, user=current_user)
+
+
+
+# @views.route("/timetable")
+# @login_required
+# def view_timetable():
+#     return render_template('timetable.html', user=current_user)

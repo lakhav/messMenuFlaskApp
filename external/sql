@@ -13,7 +13,10 @@ INSERT INTO Hostel (name) VALUES
 ('Hostel A'),
 ('Hostel B'),
 ('Hostel C'),
-('Hostel D');
+('Hostel D'),
+('Hostel M'),
+('Hostel H'),
+('Hostel K');
 
 
 -- Populate the Menu table for Hostel A
@@ -57,4 +60,60 @@ INSERT INTO Menu (hostel_id, day_id) VALUES
 (4, 5),  -- Hostel D, Friday
 (4, 6),  -- Hostel D, Saturday
 (4, 7);  -- Hostel D, Sunday
+
+
+-- Populate the Menu table for Hostel M
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(5, 1),  -- Hostel D, Monday
+(5, 2),  -- Hostel D, Tuesday
+(5, 3),  -- Hostel D, Wednesday
+(5, 4),  -- Hostel D, Thursday
+(5, 5),  -- Hostel D, Friday
+(5, 6),  -- Hostel D, Saturday
+(5, 7);  -- Hostel D, Sunday
+
+
+-- Populate the Menu table for Hostel H
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(6, 1),  -- Hostel D, Monday
+(6, 2),  -- Hostel D, Tuesday
+(6, 3),  -- Hostel D, Wednesday
+(6, 4),  -- Hostel D, Thursday
+(6, 5),  -- Hostel D, Friday
+(6, 6),  -- Hostel D, Saturday
+(6, 7);  -- Hostel D, Sunday
+
+
+-- Populate the Menu table for Hostel K
+INSERT INTO Menu (hostel_id, day_id) VALUES 
+(7, 1),  -- Hostel D, Monday
+(7, 2),  -- Hostel D, Tuesday
+(7, 3),  -- Hostel D, Wednesday
+(7, 4),  -- Hostel D, Thursday
+(7, 5),  -- Hostel D, Friday
+(7, 6),  -- Hostel D, Saturday
+(7, 7);  -- Hostel D, Sunday
+
+
+-- Insert sample data into Year table
+INSERT INTO Year (name) VALUES
+    ('First Year'),
+    ('Second Year'),
+    ('Third Year'),
+    ('Fourth Year');
+
+-- Insert sample data into Department table
+INSERT INTO Department (name) VALUES
+    ('Computer Science'),
+    ('Electrical Engineering'),
+    ('Mechanical Engineering'),
+    ('Civil Engineering');
+
+-- Insert sample data into Subgroup table
+INSERT INTO Subgroup (name) VALUES
+    ('1'),
+    ('2'),
+    ('3'),
+    ('4');
+
 
